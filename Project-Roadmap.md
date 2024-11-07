@@ -5,4 +5,4 @@
 - [X] Fork and clone existing Python project into your repository
 
 # Sprint 2 Tasks:
-- [] 
+- [ ] 
