@@ -221,5 +221,3 @@ def print_smiley_face():
     print(smiley)
 
 print_smiley_face()
-
-
