@@ -178,8 +178,31 @@ elif(Game == Win):
         print(player_2,"Has won!")
 
 # Alex Wilson - Scorebaord that will show how many games players have won between rounds
+os.system('cls')
 scores = {player_1: 0, player_2: 0}
-if Game == Win:
-    winner = player_1 if player_1 % 2 == 0 else player_2
-    scores[winner] += 1
-    print(f"Scores: {player_1}: {scores[player_1]}, {player_2}: {scores[player_2]}")
+DrawBoard(selected_theme)
+if(Game == Draw):
+        print("It's a draw!")
+elif(Game == Win):
+        player -= 1
+        if(player % 2 != 0):
+            print(player_1, "Has won!")
+            scores[player_1] += 1
+        else:
+            print(player_2, "Has won!")
+            scores[player_2] += 1
+
+    # Display scoreboard
+print(f"Scores after Round {round_number}:")
+print(f"{player_1}: {scores[player_1]}, {player_2}: {scores[player_2]}")
+
+# Final results after all rounds
+print("\nGame Over!")
+if scores[player_1] > scores[player_2]:
+    print(f"{player_1} wins the game!")
+elif scores[player_2] > scores[player_1]:
+    print(f"{player_2} wins the game!")
+else:
+    print("It's a tie!")
+
+
