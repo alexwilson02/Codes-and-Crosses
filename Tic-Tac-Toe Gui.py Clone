@@ -76,14 +76,8 @@ print("Welcome to Tic-Tac-Toe!")
 print("Get ready to enjoy some exciting rounds of Tic-Tac-Toe!")
 print("May the best player win! Have fun!")
 
-# Added ASCII art representing a Tic-Tac-Toe board at the beginning of the code. 
-print("\n" + 
-    " 1 | 2 | 3 \n" +
-    "___|___|___\n" +
-    " 4 | 5 | 6 \n" +
-    "___|___|___\n" +
-    " 7 | 8 | 9 \n" +
-    "   |   |   \n")
+# Maylee Cianca - Print statment that will show what board we are using
+print(" 1 | 2 | 3 \n___|___|___\n 4 | 5 | 6 \n___|___|___\n 7 | 8 | 9 \n")
 
 # Added describing the rules of the game for players who haven't played the game before.
 print("\nRules:\nThis is a two-player game where each player will take turns marking\n an empty square and who evers gets 3 of their mark in a row in\n any direction wins the game!")
