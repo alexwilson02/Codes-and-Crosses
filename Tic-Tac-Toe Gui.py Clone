@@ -16,7 +16,7 @@ Game = Running
 Mark = 'X'   
 TIME_LIMIT = 10
 
-#  Different themes with color codes
+# Alex Wilson - Added more theme colors
 themes = {
     1 : {'border': '\033[95m', 'empty': '\033[0m', 'player1': '\033[91m', 'player2': '\033[94m'},
     2 : {'border': '\033[92m', 'empty': '\033[0m', 'player1': '\033[93m', 'player2': '\033[96m'},
@@ -24,7 +24,7 @@ themes = {
     4 : {'border': '\033[93m', 'empty': '\033[0m', 'player1': '\033[95m', 'player2': '\033[94m'},
     5 : {'border': '\033[96m', 'empty': '\033[0m', 'player1': '\033[94m', 'player2': '\033[92m'},
     6 : {'border': '\033[90m', 'empty': '\033[0m', 'player1': '\033[91m', 'player2': '\033[93m'}
-}  # Alex Wilson - Added more theme colors
+}  
 
 
 def CheckPosition(x):    
