@@ -97,8 +97,8 @@ print('Hi', player_2 + ", you are player 2.\n")
 
 # Maylee Cianca - Changed the "X" to an "M", which is the first letter of my name
 # Alex Wilson - I changed the "O" to an "A" so that when I playing my opponent I am using the beginning initial to my  name instead of the traditional "O"
-player1_mark = input(player_1 + " please input your mark character if you wish to customize. To use the default mark please enter 'M': ")
-player2_mark = input(player_2 + " please input your mark character if you wish to customize. To use the default mark please enter 'A': ")
+player1_mark = input(player_1 + " please input your mark character if you wish to customize or enter 'M': ")
+player2_mark = input(player_2 + " please input your mark character if you wish to customize or enter 'A': ")
 print("Player 1 [" + player1_mark + "] --- Player 2 [" + player2_mark + "]\n")    
 print()    
 print()    
