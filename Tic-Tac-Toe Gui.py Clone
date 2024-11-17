@@ -101,8 +101,8 @@ for round_number in range(1, rounds + 1):
 
 # Maylee Cianca - Changed the "X" to an "M", which is the first letter of my name
 # Alex Wilson - I changed the "O" to an "A" so that when I playing my opponent I am using the beginning initial to my  name instead of the traditional "O"
-player1_mark = input(player_1 + " please input your mark character if you wish to customize or enter 'A': ")
-player2_mark = input(player_2 + " please input your mark character if you wish to customize or enter 'M': ")
+player1_mark = input(player_1 + " please input your mark character ")
+player2_mark = input(player_2 + " please input your mark character ")
 print("Player 1 [" + player1_mark + "] --- Player 2 [" + player2_mark + "]\n")    
 print()    
 print()    
@@ -180,6 +180,7 @@ elif(Game == Win):
 # Alex Wilson - Scorebaord that will show how many games players have won between rounds
 scores = {player_1: 0, player_2: 0}
 if Game == Win:
-    winner = player_1 if player % 2 == 0 else player_2
+    winner = player_1 if player_1 % 2 == 0 else player_2
+    winner = player_2 if player_2 % 2 == 0 else player_1
     scores[winner] += 1
     print(f"Scores: {player_1}: {scores[player_1]}, {player_2}: {scores[player_2]}")
