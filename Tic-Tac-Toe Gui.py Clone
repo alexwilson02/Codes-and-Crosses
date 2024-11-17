@@ -15,10 +15,13 @@ Mark = 'X'
 
 # Define different themes with color codes
 themes = {
-    1: {'border': '\033[95m', 'empty': '\033[0m', 'player1': '\033[91m', 'player2': '\033[94m'},
-    2: {'border': '\033[92m', 'empty': '\033[0m', 'player1': '\033[91m', 'player2': '\033[94m'},
-    # Add more themes as desired
-}
+    1 : {'border': '\033[95m', 'empty': '\033[0m', 'player1': '\033[91m', 'player2': '\033[94m'},
+    2 : {'border': '\033[92m', 'empty': '\033[0m', 'player1': '\033[93m', 'player2': '\033[96m'},
+    3 : {'border': '\033[94m', 'empty': '\033[0m', 'player1': '\033[92m', 'player2': '\033[91m'},
+    4 : {'border': '\033[93m', 'empty': '\033[0m', 'player1': '\033[95m', 'player2': '\033[94m'},
+    5 : {'border': '\033[96m', 'empty': '\033[0m', 'player1': '\033[94m', 'player2': '\033[92m'},
+    6 : {'border': '\033[90m', 'empty': '\033[0m', 'player1': '\033[91m', 'player2': '\033[93m'}
+}  # Alex Wilson - Added more theme colors
 
 # Function to check if a position on the board is available
 def CheckPosition(x):    
