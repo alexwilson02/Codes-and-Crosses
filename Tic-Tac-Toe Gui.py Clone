@@ -168,16 +168,3 @@ elif(Game == Win):
 print("\nThank you for playing Tic-Tac-Toe!")
 print("Goodbye and see you next time!")
 print("\n\n")
-
-# ASCII art for fireworks, balloons, and flowers
-print("\033[91m       \ /            *          ")
-print("\033[91m     \ | /        *     *        ")
-print("\033[92m   -- -O- --    * * * * * * *    ")
-print("\033[93m     / | \        * * * * *      ")
-print("\033[93m       / \            *          ")
-print("\033[94m      o o o                      ")
-print("\033[94m     o     o                     ")
-print("\033[94m    o       o                    ")
-print("\033[95m   /         \                   ")
-print("\033[95m  /           \                  ")
-print("\033[95m /             \                 ")
