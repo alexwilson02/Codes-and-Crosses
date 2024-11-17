@@ -206,4 +206,20 @@ elif scores[player_2] > scores[player_1]:
 else:
     print("It's a tie!")
 
+# Maylee Cianca - Added ACSII art
+def print_smiley_face():
+    smiley = """
+       _______
+     .-       -.
+    /           \\
+   |    O   O    |
+   |     \\_/     |
+   |   \\_____/   |
+    \\           /
+     `-.______.-'
+    """
+    print(smiley)
+
+print_smiley_face()
+
 
