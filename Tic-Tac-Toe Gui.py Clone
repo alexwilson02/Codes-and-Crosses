@@ -119,12 +119,11 @@ selected_theme = int(input("Enter the theme number: "))
 
 selected_theme = themes.get(selected_theme, themes[1])  
 
-# Alex Wilson- added a delayed time between rounds so players can be prepared
+# Maylee Cianca - Added time limit to each turn
 while(Game == Running):    
     os.system('cls' if os.name == 'nt' else 'clear')
     DrawBoard(selected_theme)
     
-    # Determine current player
     if(player % 2 != 0):
         current_player = player_1
         Mark = player1_mark
@@ -134,10 +133,8 @@ while(Game == Running):
 
     print(f"{current_player}'s turn! You have {TIME_LIMIT} seconds to make your move.")
 
-    # Start timer
     start_time = time.time()
     try:
-        # Input logic with timer
         while True:
             time_taken = time.time() - start_time
             if time_taken > TIME_LIMIT:
