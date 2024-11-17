@@ -181,6 +181,5 @@ elif(Game == Win):
 scores = {player_1: 0, player_2: 0}
 if Game == Win:
     winner = player_1 if player_1 % 2 == 0 else player_2
-    winner = player_2 if player_2 % 2 == 0 else player_1
     scores[winner] += 1
     print(f"Scores: {player_1}: {scores[player_1]}, {player_2}: {scores[player_2]}")
