@@ -122,9 +122,9 @@ print("The game is starting in:")
 
 for i in range(5, 0, -1):
     print(i)
-    time.sleep(1)  # Wait for 1 second before printing the next number
+    time.sleep(1) 
 
-print("Go!")  # Print "Go!" to signal that the game has started
+print("Go!") 
 time.sleep(1)
 
 # Maylee Cianca - Added time limit to each turn
