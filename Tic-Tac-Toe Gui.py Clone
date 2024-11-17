@@ -1,6 +1,7 @@
 import os    
 import time    
 
+mode = input("Enter game mode: '1' for Single Player, '2' for Multiplayer: ")
 # Define initial game variables
 board = [' ',' ',' ',' ',' ',' ',' ',' ',' ',' ']    
 player = 1    
