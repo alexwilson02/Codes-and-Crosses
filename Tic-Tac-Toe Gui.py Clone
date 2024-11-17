@@ -79,6 +79,7 @@ print(" 1 | 2 | 3 \n___|___|___\n 4 | 5 | 6 \n___|___|___\n 7 | 8 | 9 \n")
 
 print("\nRules:\nThis is a two-player game where each player will take turns marking\n an empty square and who evers gets 3 of their mark in a row in\n any direction wins the game!")
 
+# Alex Wilson - Rounds can be unlimited so you can play as many as you want instead of 1 or 3
 rounds = int(input("How many rounds do you want to play?" ))
 print(f"You have chosen to play {rounds} round(s). Let's begin!")
 
