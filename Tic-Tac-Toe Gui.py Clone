@@ -47,7 +47,7 @@ def DrawBoard(theme):
     print("| |____|___|____| |") 
     print("|_________________|" + empty_color) 
 
-# Maylee Cianca - Adjusted function to check the winner of the game
+# Maylee Cianca - Function with winning combinations 
 def CheckWin():
     global Game
     winning_combinations = [
