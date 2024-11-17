@@ -33,7 +33,6 @@ def CheckPosition(x):
     else:    
         return False     
         
-
 def DrawBoard(theme):  
     border_color = theme['border']
     empty_color = theme['empty']
@@ -110,14 +109,23 @@ print()
 print("Please Wait...")
 time.sleep(3)
 
-
 print("Select a theme:")
 for theme_num, _ in themes.items():
     print(theme_num)
 selected_theme = int(input("Enter the theme number: "))
 
-
 selected_theme = themes.get(selected_theme, themes[1])  
+
+# Maylee Cianca - Added game countdown timer
+print("Get ready to play!")
+print("The game is starting in:")
+
+for i in range(5, 0, -1):
+    print(i)
+    time.sleep(1)  # Wait for 1 second before printing the next number
+
+print("Go!")  # Print "Go!" to signal that the game has started
+time.sleep(1)
 
 # Maylee Cianca - Added time limit to each turn
 while(Game == Running):    
