@@ -11,7 +11,7 @@
 - [X] Add comment to each commit made
 
 # Sprint 3 Tasks:
-- [ ] Make final code adjustments
-- [ ] Test code
-- [ ] Create PowerPoint
-- [ ] Present
+- [X] Make final code adjustments
+- [X] Test code
+- [X] Create PowerPoint
+- [X] Present
